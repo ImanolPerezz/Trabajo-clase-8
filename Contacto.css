@@ -1,0 +1,32 @@
+header{
+    background-color: burlywood;
+    width: 100%;
+}
+
+body{
+    background-color: coral;
+}
+
+.cuerpo{
+    border: 100%;
+    border-style:groove;
+    border-color: coral;
+    border-radius: 20px;
+    background-color: burlywood;
+}
+
+div{
+    background-color: yellow;
+    border: 1px solid black;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    height: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+}
